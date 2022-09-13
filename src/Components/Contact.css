@@ -1,0 +1,41 @@
+.contactContainer {
+  background: rgb(236, 240, 253);
+  background: radial-gradient(
+    circle,
+    rgba(236, 240, 253, 1) 35%,
+    rgba(243, 221, 234, 1) 100%
+  );
+}
+.contactHead {
+  font-family: "Kalam", cursive;
+  font-size: 50px;
+  font-weight: 450;
+  color: #1d2e50;
+  margin-right: 68%;
+}
+.conatctForm {
+  display: flex;
+  justify-content: space-around;
+}
+.contactcontent{
+    font-family: "Kalam", cursive;
+    font-size: 40px;
+    margin-top: 15%;
+    color: #1d2e50;
+    font-weight: 500;
+}
+.contactbtn{
+    margin-top: 2%;
+    width:30%;
+    padding:1%;
+    border:none;
+    background-color: #97d5ed;
+    color: #1d2e50;
+    font-size: medium;
+    font-weight: bold;
+    border-radius: 20px;
+}
+.contactbtn:hover{
+    opacity: 0.9;
+    cursor: pointer;
+}

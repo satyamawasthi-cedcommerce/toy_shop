@@ -1,0 +1,69 @@
+.shopDiv {
+  background: rgb(236, 240, 253);
+  background: radial-gradient(
+    circle,
+    rgba(236, 240, 253, 1) 35%,
+    rgba(243, 221, 234, 1) 100%
+  );
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 3%;
+  border-radius: 10px;
+  margin-top: 4%;
+  padding: 2% 0%;
+}
+.productsDiv {
+  margin-top: 3%;
+  border-radius: 10px;
+  width: 90%;
+  margin-left: 5%;
+  background: rgb(236, 240, 253);
+  background: radial-gradient(
+    circle,
+    rgba(236, 240, 253, 1) 35%,
+    rgba(243, 221, 234, 1) 100%
+  );
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+.individualDiv {
+  background-color: white;
+  width: 25%;
+  margin-left: 1%;
+  margin-top: 2%;
+  border-radius: 10px;
+}
+.individualDiv img {
+  border-radius: 10px;
+}
+.productSDetails {
+  margin-top: 4%;
+  color: #1d2e50;
+  line-height: 2;
+}
+.productSDetails button {
+  padding: 1%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  width: 70%;
+  border: transparent;
+  border: 2px solid #1d2e50;
+  color: #1d2e50;
+  font-size: medium;
+  font-weight: 900;
+  background-color: white;
+  transition: all 0.4s;
+}
+.productSDetails button:hover {
+  color: white;
+  background-color: #1d2e50;
+  cursor: pointer;
+}
+.search {
+  width: 70%;
+  border: none;
+  padding: 1.5%;
+}

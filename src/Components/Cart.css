@@ -1,0 +1,73 @@
+.cartList {
+  color: #1d2e50;
+  font-family: "Kalam", cursive;
+}
+.emptyCarthead {
+  color:#1d2e50;
+  font-family: "Kalam", cursive;
+}
+.cartContainer {
+  display: flex;
+  justify-content: space-around;
+}
+.cartDiv {
+  width: 50%;
+}
+.removeItem {
+  padding: 1%;
+  margin: 1%;
+  border: transparent;
+  border: 2px solid #1d2e50;
+  background-color: white;
+  color:#1d2e50;
+  transition: all 0.4s;
+}
+.removeItem:hover {
+  color: white;
+  background-color:#1d2e50;
+  cursor: pointer;
+}
+.billHead {
+  color:#1d2e50;
+  font-family: "Kalam", cursive;
+}
+.billDiv {
+  margin-top: 2.8%;
+  background-color: #f1f3f4;
+}
+.checkoutbtn {
+  background-color: white;
+  color:#1d2e50;
+  padding: 1%;
+  margin: 2%;
+  font-weight: bold;
+  border: transparent;
+  border: 2px solid #1d2e50;
+  transition: all 0.4s;
+}
+.checkoutbtn:hover {
+  color: white;
+  background-color:#1d2e50;
+  cursor: pointer;
+}
+.emptyCartbtn {
+  background-color: white;
+  color:#1d2e50;
+  padding: 1%;
+  margin: 2%;
+  font-weight: bold;
+  border: transparent;
+  border: 2px solid #1d2e50;
+}
+.emptyCartbtn:hover {
+  color: white;
+  background-color: #1d2e50;
+  cursor: pointer;
+}
+.individualCartItem {
+  background-color: #f1f3f4;
+  display: flex;
+  justify-content: space-around;
+  padding: 2%;
+  margin: 2%;
+}

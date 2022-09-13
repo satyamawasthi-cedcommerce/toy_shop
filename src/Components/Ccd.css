@@ -1,0 +1,54 @@
+.ccdDiv {
+  background: rgb(236, 240, 253);
+  background: radial-gradient(
+    circle,
+    rgba(236, 240, 253, 1) 35%,
+    rgba(243, 221, 234, 1) 100%
+  );
+  display: flex;
+  flex: 0 0 40%;
+  flex-wrap: wrap;
+  padding: 5%;
+}
+.ccdContent {
+  margin-left: 10%;
+  text-align: left;
+}
+.head1 {
+  text-align: left;
+  font-family: "Kalam", cursive;
+  font-size: 68px;
+  font-weight: 450;
+  color: #1d2e50;
+}
+.ccdkid {
+  color: #e297c5;
+}
+.ccdpara {
+  text-align: left;
+  font-weight: 350;
+  color: #1d2e50;
+}
+.btnShop {
+  margin-top: 5%;
+  padding: 1.5%;
+  width: 30%;
+  border: none;
+  background-color: #97d5ed;
+  color: #1d2e50;
+  border-radius: 20px;
+  font-size: medium;
+  font-weight: bold;
+  transition: all 0.4s;
+}
+.btnShop:hover {
+  cursor: pointer;
+  opacity: 0.9;
+}
+.ccdImg {
+  margin-left: 4%;
+}
+.imgc {
+  max-width: 100%;
+  width: 500px;
+}

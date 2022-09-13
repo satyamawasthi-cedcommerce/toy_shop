@@ -1,0 +1,76 @@
+.checkoutPageDiv {
+  display: flex;
+  justify-content: space around;
+  padding: 4%;
+    
+}
+.InfoDiv {
+  background-color: #f1f3f4;
+  width: 40%;
+  margin-left: 3%;
+  text-align: center;
+}
+.confirmOrder {
+  background-color: #f1f3f4;
+  width: 40%;
+  margin-left: 10%;
+}
+.detailsDiv {
+  color: #1d2e50;
+  font-family: "Kalam", cursive;
+  padding: 2%;
+}
+.confirmHead {
+  color: #1d2e50;
+  font-family: "Kalam", cursive;
+  padding: 2%;
+  text-align: center;
+}
+.imputmail {
+  padding: 1%;
+  margin: 2%;
+  border: none;
+  outline: none;
+  width: 50%;
+}
+.orderSummary {
+  width: 90%;
+  margin-left: 5%;
+  border: 1px solid black;
+  margin-bottom: 2%;
+}
+.orderSummary tr,
+th,
+td {
+  border: 2px solid black;
+}
+.finalOrderBtn {
+  margin: 2%;
+  padding: 1%;
+  border: transparent;
+  border: 2px solid #1d2e50;
+  background-color: white;
+  color: #1d2e50;
+  font-weight: bold;
+  transition: all 0.4s;
+}
+.finalOrderBtn:hover {
+  color: white;
+  background-color: #1d2e50;
+  cursor: pointer;
+}
+.continueShop {
+  margin: 2%;
+  padding: 1%;
+  border: transparent;
+  border: 2px solid #1d2e50;
+  background-color: white;
+  color: #1d2e50;
+  font-weight: bold;
+  transition: all 0.4s;
+}
+.continueShop:hover {
+  color: white;
+  background-color: #1d2e50;
+  cursor: pointer;
+}

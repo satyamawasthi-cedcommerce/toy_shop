@@ -1,0 +1,80 @@
+.offerContainer {
+  background: rgb(236, 240, 253);
+  background: radial-gradient(
+    circle,
+    rgba(236, 240, 253, 1) 35%,
+    rgba(243, 221, 234, 1) 100%
+  );
+}
+.headContent {
+  display: flex;
+  justify-content: space-around;
+}
+.offersHeading {
+  /* margin-right: 30%; */
+  font-family: "Kalam", cursive;
+  font-size: 50px;
+  font-weight: 450;
+  color: #1d2e50;
+}
+.offersDiv {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 65%;
+  padding: 2%;
+  border-radius: 0 50px 50px 0;
+}
+.offers {
+  background-color: #d2def2;
+  padding: 5%;
+  border-radius: 0 25px 0 25px;
+  color: #1d2e50;
+  transition: transform 0.4s;
+}
+.offers:hover {
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  cursor: pointer;
+  transform: scale(1.05);
+}
+.offers1 {
+  background-color: #ffdfb2;
+  padding: 5%;
+  border-radius: 0 25px 0 25px;
+  transition: transform 0.4s;
+  color: #1d2e50;
+}
+.offers1:hover {
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.05);
+  cursor: pointer;
+}
+.offers2 {
+  background-color: #97d5ed;
+  padding: 5%;
+  border-radius: 0 25px 0 25px;
+  transition: transform 0.4s;
+  color: #1d2e50;
+}
+.offers2:hover {
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.05);
+  cursor: pointer;
+}
+.offerbtn{
+  padding:1%;
+  width:20%;
+  color:#1d2e50;
+  background-color: #97d5ed;
+  border:none;
+  border-radius: 20px;
+  font-size: medium;
+  font-weight: bold;
+}
+.offerbtn:hover{
+  opacity: 0.9;
+  cursor: pointer;
+}
