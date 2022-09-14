@@ -23,7 +23,7 @@ export default function Categories() {
           </div>
           <div style={{ width: "30%" }}>
             <img
-              src="https://www.angroos.com/wp-content/uploads/2022/01/001-26-scaled.jpg"
+              src="./Gift Basket For 2.jpg"
               alt="..."
               style={{ width: "50%", borderRadius: "0 25px 0 25px" }}
             />
